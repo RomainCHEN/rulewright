@@ -1,7 +1,0 @@
-node_modules/
-dist/
-.npm-cache/
-.DS_Store
-*.log
-
-# Kiro: the hackathon rules require /.kiro at the repo root — never ignore it.
