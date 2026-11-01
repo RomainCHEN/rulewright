@@ -1,0 +1,6 @@
+{
+  "version": "v1",
+  "hooks": [
+    { "name": "Test on save", "trigger": "PostFileSave", "matcher": "\\.(ts|tsx)$", "action": { "type": "command", "command": "npm test --silent" } }
+  ]
+}
