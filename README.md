@@ -10,8 +10,9 @@ counterexamples taken from the very same corpus. What survives is a rule you can
 corpus  →  diff  →  cluster  →  induce  →  refute  →  you decide  →  check a draft
 ```
 
-Built for the Kiroween 2026 hackathon, Skeleton-Crew-adjacent? No — this is a **single tool**
-submitted on its own. MIT licensed.
+Built for the Kiroween 2026 hackathon as a single tool. MIT licensed.
+
+![Rulewright studio](./docs/images/studio.png)
 
 ## Status
 

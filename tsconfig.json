@@ -1,16 +1,33 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": ["ES2022", "DOM"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "module": "ESNext",
     "moduleResolution": "bundler",
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "types": ["vitest/globals", "node"],
+    "types": [
+      "vitest/globals",
+      "node"
+    ],
     "baseUrl": ".",
-    "paths": { "@rulewright/core": ["packages/rule-core/src/index.ts"] }
+    "paths": {
+      "@rulewright/core": [
+        "packages/rule-core/src/index.ts"
+      ]
+    },
+    "jsx": "react-jsx"
   },
-  "include": ["packages/**/*.ts", "apps/**/*.ts", "vitest.config.ts"]
+  "include": [
+    "packages/**/*.ts",
+    "apps/**/*.ts",
+    "apps/**/*.tsx",
+    "vitest.config.ts"
+  ]
 }
